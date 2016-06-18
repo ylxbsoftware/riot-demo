@@ -7,7 +7,7 @@
                     <img class="weui_media_appmsg_thumb" src="{ photoUrl }" alt="">
                 </div>
                 <div class="weui_media_bd">
-                    <h4 class="weui_media_title">{ name }</h4>
+                    <h4 class="weui_media_title">{ name } <i class="weui_icon_info_circle custom"></i></h4>
                     <p class="weui_media_desc">{ desc }</p>
                 </div>
             </a>
@@ -22,4 +22,10 @@
       location.href = 'app/detail/detail.html?id=' + id;
     }
   </script>
+  <style scoped>
+    .custom:before{
+    font-size: 12px;
+    margin-left: .2rem;
+    }
+  </style>
 </main>
