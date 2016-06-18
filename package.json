@@ -1,0 +1,27 @@
+{
+  "name": "riot-demo",
+  "version": "0.0.1",
+  "description": "riot",
+  "repository": "riot-demo",
+  "main": "app/main.js",
+  "author": "wanbao",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors -d --hot --host 192.168.1.101 --port 80",
+    "watch": "webpack -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "riot",
+    "webpack"
+  ],
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "riot": "^2.3.12",
+    "riotjs-loader": "^1.2.0",
+    "webpack": "^1.12.10",
+    "webpack-dev-server": "^1.14.0",
+    "weui": "^0.4.2",
+    "zepto": "^1.0.1"
+  }
+}
