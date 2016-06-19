@@ -12,7 +12,7 @@
                 </div>
             </a>
         </div>
-        <a class="weui_panel_ft" href="javascript:void(0);">查看更多</a>
+        <a class="weui_panel_ft" href="javascript:void(0);" onclick="{viewMore}">查看更多</a>
     </div>
 
   <script>
@@ -20,6 +20,10 @@
     view (e) {
       var id = $(e.currentTarget).data('id');
       location.href = 'app/detail/detail.html?id=' + id;
+    }
+
+    viewMore (e){
+      location.href = 'app/more/more.html';
     }
   </script>
   <style scoped>
