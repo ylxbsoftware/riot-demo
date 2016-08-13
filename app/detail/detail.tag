@@ -17,11 +17,19 @@
               <p>上班之前总渴望着能够有超舒适、人性化的办公环境，后来觉得在哪不重要，只要每天跟一帮聪明的人在一起沟通、解决问题，才是对于我最理想的工作环境。</p>
             </section>
     </article>
+
 </div>
+  <div class="button-wrapper">
+    <a onclick="{goBack}" href="javascript:;" class="weui_btn weui_btn_plain_primary">返回</a>
+  </div>
   <script>
     this.name = opts.user.name;
     this.photoUrl = opts.user.photoUrl;
     this.desc = opts.user.desc;
+
+    goBack(e) {
+      location.href = '../../index.html';
+    }
   </script>
   <style scoped>
     img{
@@ -31,6 +39,9 @@
     }
     .title{
       color: #f60;
+    }
+    .button-wrapper{
+      padding: 1rem 3rem;
     }
   </style>
 </detail>

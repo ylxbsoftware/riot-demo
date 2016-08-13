@@ -7,7 +7,7 @@
   "author": "wanbao",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --progress --colors -d --hot --host 192.168.1.105 --port 80",
+    "start": "webpack-dev-server --progress --colors -d --hot --host 192.168.1.100 --port 80",
     "watch": "webpack -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
